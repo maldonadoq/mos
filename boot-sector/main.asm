@@ -19,7 +19,7 @@
 	    db 'Hello World', 0
 
 	G_MSG:
-	    db 'GooBye', 0
+	    db 'GoodBye', 0
 
 ; padding and magic number
 times 510-($-$$) db 0
