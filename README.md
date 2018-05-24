@@ -22,7 +22,7 @@ M-OS
 	* main.asm
 	* memory.asm
 	* print.asm
-	*stack.asm
+	* stack.asm
 <!--:sparkles: :camel: :boom:-->
 
 * * *
