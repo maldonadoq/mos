@@ -16,7 +16,6 @@ print:
         jmp start
 
     done:
-
         mov ah, 0x0e
         mov al, 0x0a ; newline char
         int 0x10
