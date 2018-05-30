@@ -1,5 +1,5 @@
 [org 0x7c00]
-	mov ah , 0x0e	; int 10/ ah = 0 eh -> scrolling teletype BIOS routine
+	mov ah , 0x0e
 
 	; First attempt
 	mov al , the_secret
@@ -19,13 +19,10 @@
 	mov al , [0x7c1e]
 	int 0x10				; Does this print an X?
 
-	jmp $					; Jump forever.
+	jmp $
 
 
 the_secret:
 	db "X"
-
-; Padding and magic BIOS number.
-
 	times 510-($-$$) db 0
 	dw 0xaa55 	

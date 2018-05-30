@@ -7,11 +7,8 @@
 	mov bx, G_MSG
 	call print
 
-	mov dx, 0x12fe
-
 	jmp $
 
-	; include subroutines below the hang
 	%include "print.asm"
 
 	; data

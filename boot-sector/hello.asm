@@ -5,7 +5,7 @@ mov al, 'E'
 int 0x10
 mov al, 'L'
 int 0x10
-int 0x10 ; 'L' is still on al, remember?
+int 0x10
 mov al, 'O'
 int 0x10
 
